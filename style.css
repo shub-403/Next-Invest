@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ================= Navbar CSS ================= */
+
+.top-nav {
+    position:fixed;
+    z-index: 9;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 0 5px rgb(196, 195, 195);
+}
+
+.logo-name h4 {
+    color: rgb(18, 140, 118);
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list-container li {
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.left-container {
+    width: 40%;
+    text-align: center;
+}
+
+.right-container {
+    display: flex;
+    width: 60%;
+}
+
+.nav-btns {
+    display: flex;
+    margin-left: 20px;
+}
+
+.btn1 {
+    color: white;
+    background-color: rgb(18, 140, 118);
+    padding: 10px 30px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.btn2 {
+    border: 1px solid rgb(245, 107, 141);
+    padding: 10px 30px;
+    color: rgb(245, 107, 141);
+    font-weight: 500;
+    background-color: transparent;
+}
+
+/* =================== Main CSS ================= */
+
+
+/* ======= Section1 CSS ========= */
+
+.section1 {
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    top: 60px;
+    min-width: 100%;
+}
+
+.bg-image {
+   min-width: 100%;
+    height: 90vh;
+    object-fit:cover;
+}
+
+.color-box {
+    position: absolute;
+    top: 0;
+    background-color: rgba(17, 51, 117, 0.5);
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+.get-start {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: white;
+}
+
+.heading {
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+
+.get-start p {
+    line-height: 30px;
+}
+
+.get-start button {
+    padding: 20px 50px;
+    color: white;
+    background-color: rgb(18, 140, 118);
+    border: none;
+    margin-top: 30px;
+}
+
+.line-design {
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ======= Section2 CSS ========= */
+
+.section2 {
+    text-align: center;
+    padding: 10%;
+}
+
+.bg-shape {
+    position: absolute;
+    left: 2%;
+    top: 180%;
+}
+
+.bg-shape img {
+    width: 210px;
+}
+
+.section2-heading {
+    margin-bottom: 2%;
+}
+
+.section2-heading h1 {
+    margin-bottom: 3%;
+}
+
+.section2-heading p {
+    color: gray;
+    line-height: 25px;
+}
+
+.business-cards {
+    width: 100%;
+    height: 800px;
+    padding: 30px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    width: 32%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.card-img img {
+    width: 100%;
+    height: 40%;
+}
+
+.card-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: black;
+    font-size: 8px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+}
+
+.card-btn1 {
+    left: 5%;
+}
+
+.card-btn2 {
+    left: 30%;
+}
+
+.relative {
+    position: relative;
+}
+
+.card-details {
+    padding: 15px;
+    text-align: left;
+}
+
+.address {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: gray;
+}
+
+.place-details {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    padding: 0 15px;
+    display: flex;
+}
+
+.green-bar {
+    width: 70%;
+    background-color: rgb(18, 140, 118);
+}
+
+.gray-bar {
+    width: 30%;
+    background-color: rgba(236, 236, 236, 1);
+}
+
+.prize {
+    text-align: left;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.amount {
+    color: rgb(18, 140, 118);
+    font-weight: bold;
+}
+
+.laptop-img img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.section2-btn {
+    margin-top: 80px;
+    border: 1px solid rgb(245, 107, 141);
+    color: rgb(245, 107, 141);
+    padding: 20px 30px;
+    background-color: transparent;
+}
+
+.security {
+    padding: 8px 15px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-details {
+    margin-top: 20px;
+}
+
+.card2-btn button {
+    width: 100%;
+    background-color: rgb(245, 107, 141);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 10%;
+    padding: 16px;
+}
+
+/* ======= Section3 CSS ========= */
+
+
+.section3 {
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(236, 244, 253, 1);
+    padding: 10% 0 0 0;
+    height: 500px;
+}
+
+.section3-shape1 {
+    position: relative;
+    width: 15%;
+}
+
+.section3-shape1 img {
+    height: 70%;
+    margin-top: 120px;
+}
+
+.investors {
+    z-index: 1;
+    width: 30%;
+    height: 100%;
+    line-height: 25px;
+}
+
+.investors h1 {
+    margin: 20px 0;
+    color: rgba(51, 51, 51, 1);
+}
+
+.investors p {
+    color: rgba(153, 153, 153, 1);
+}
+
+.investors img {
+    width: 40px;
+}
+
+.chart {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    height: 30%;
+    padding: auto;
+}
+
+.chart-img {
+    height: fit-content;
+}
+
+.chart-img img {
+    width: 350px;
+    height: auto;
+}
+
+.millions-img {
+    padding: 20px;
+    height: fit-content;
+}
+
+.millions-img img {
+    width: 50px;
+}
+
+.years-img {
+    width: 100%;
+    padding-left: 20%;
+}
+
+.years-img img {
+    width: 90%;
+}
+
+.right-shapes {
+    width: 20%;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topshape img {
+    width: 100px;
+    margin: 0 30%;
+}
+
+.dots-shape img {
+    width: 20px;
+    margin: 120% 50%;
+}
+
+/* ======= Section4 CSS ========= */
+
+.section4 {
+    display: flex;
+    padding: 8% 0 0 20%;
+    align-items: center;
+}
+
+.apply-container {
+    width: 35%;
+}
+
+.apply-container h1 {
+    color: rgba(51, 51, 51, 1);
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.apply-container p {
+    color: rgba(153, 153, 153, 1);
+    line-height: 20px;
+}
+
+.apply-container button {
+    margin-top: 20px;
+    background-color: rgb(18, 140, 118);
+    color: white;
+    padding: 20px 40px;
+    border: none;
+}
+
+.girl-vector {
+    width: 40%;
+    text-align: center;
+}
+
+.girl-vector img {
+    width: 350px;
+}
+
+.section4-shape {
+    width: 20%;
+    text-align: right;
+    margin-top: -15%;
+}
+
+.section4-shape img {
+    width: 200px;
+}
+
+/* ======= Section5 CSS ========= */
+
+.section5 {
+    background-color: rgba(236, 236, 236, 1);
+    padding: 20px 20%;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(51, 51, 51, 1);
+}
+
+.section5 p {
+    font-size: 11px;
+}
+
+.site-name {
+    line-height: 30px;
+}
+
+.services,
+.about {
+    width: 20%;
+    line-height: 30px;
+}
+
+.site-name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 42vh;
+}
+
+.subscribe-container h3{
+    color: rgba(51, 51, 51, 1);
+    font-weight: 400;
+}
+
+.email-container{
+    display: flex;
+    width: 290px;
+    margin-top: 20px;
+}
+
+.email-container input{
+    width: 90%;
+    border-width: 0 0 1px 0;
+    border-color: gray;
+    background-color: transparent;
+    padding:10px 0;
+    font-size: 11px;
+}
+
+.email-container button{
+    width: 15%;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(245, 107, 141);
+    padding:12px 8px;
+    color: white;
+}
+
+.btns-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 43vh;
+    width: 15%;
+}
+
+.uparrow-btn button {
+    background-color: rgb(18, 140, 118);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 70%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+/* ============ Media Query ============= */
+
+@media screen and (max-width:1100px){
+    .top-nav, .list-container, .nav-btns,.left-container,.right-container,.nav-links{
+        flex-direction: column;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .top-nav{
+        height: fit-content;
+    }
+    .bg-image{
+        display: block;
+    }
+    .nav-btns button{
+        justify-content: center;
+    }
+
+  .btn1{
+    align-self: center;
+    margin: 0;
+    }
+
+    .btn2{
+        margin-top: 10px;
+        align-self: center;
+    }
+
+}
